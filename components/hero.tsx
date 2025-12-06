@@ -1,6 +1,8 @@
+"use client"
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import SimpleLogoLoop from "./rotating_logo";
+import {motion} from 'motion/react'
 
 const logos = [
   "/amazon.png",
@@ -42,7 +44,10 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="w-full lg:w-[40%] flex justify-end mt-8 lg:mt-0">
+        <motion.div className="w-full lg:w-[40%] flex justify-end mt-8 lg:mt-0"initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}>
+          
           <Image
             src="/Group1.png"
             alt="Hero illustration showing marketplace management"
@@ -51,7 +56,7 @@ const Hero = () => {
             priority
             className="object-contain max-w-[80%] lg:w-full mx-auto lg:mx-0"
           />
-        </div>
+        </motion.div>
       </div>
 
       {/* LOGO LOOP at bottom - flex-grow pushes it down */}
