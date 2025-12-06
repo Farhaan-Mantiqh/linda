@@ -22,12 +22,11 @@ export default function Navbar() {
       <header className="relative z-20 px-6 lg:px-16 py-6">
         <div className="max-w-[1400px] mx-auto flex items-center justify-between">
 
-          {/* Logo */}
           <div className="text-[#4C5FFF] font-bold text-2xl leading-tight">
             SMART<br />LAUNCH
           </div>
 
-          {/* Desktop Nav */}
+
           <nav className="hidden lg:flex items-center gap-2 bg-white rounded-full px-3 py-2 shadow-sm">
             
             <a
@@ -66,20 +65,18 @@ export default function Navbar() {
             </a>
           </nav>
 
-          {/* Desktop CTA Button */}
           <button className="hidden lg:flex items-center gap-2 px-6 py-3 border-2 border-gray-300 rounded-full text-sm font-medium hover:bg-gray-50 transition">
             <Phone size={18} />
             Schedule Call
           </button>
 
-          {/* Mobile Hamburger */}
+
           <button className="lg:hidden p-2" onClick={() => setMenuOpen(true)}>
             <Menu size={30} />
           </button>
         </div>
       </header>
 
-      {/* ================= MOBILE MENU ================= */}
       <div
         className={`lg:hidden fixed inset-0 bg-white z-50 px-6 py-8 transition-all duration-300 ${
           menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
