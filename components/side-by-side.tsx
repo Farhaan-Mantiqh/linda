@@ -44,7 +44,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -56,7 +56,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
@@ -112,7 +112,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -124,7 +124,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
@@ -179,7 +179,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#22C55E] via-[#FFA94D] to-[#99E4B5]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -191,7 +191,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
@@ -246,7 +246,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#0BF0F8] via-[#FFA94D] to-[#0BF0F8]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -258,7 +258,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
@@ -313,7 +313,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#E03A3E] via-[#FFA94D] to-[#F1A4A6]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -325,7 +325,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
@@ -380,7 +380,7 @@ const Sidebyside = () => {
                     absolute top-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-1 delay-band-1
                   "
@@ -392,7 +392,7 @@ const Sidebyside = () => {
                     absolute bottom-[22%] left-[-35%]
                     w-[170%] h-[22%]
                     rounded-full
-                    bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400
+                    bg-gradient-to-r from-[#FFA94D] via-[#FFA94D] to-[#FFD7AD]
                     blur-3xl opacity-50
                     animate-band-2 delay-band-2
                   "
